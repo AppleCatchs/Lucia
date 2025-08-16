@@ -4,10 +4,10 @@ const fs = require('fs').promises;
 const path = require('path');
 
 // Replace with your actual tokens
-const TELEGRAM_BOT_TOKEN = '8251985970:AAHGUfUwnbMzSqbYKYkpATUUbfY3AqeT6W4';
-const NOWPAYMENTS_API_KEY = 'GMRYWTZ-706MPQQ-MP1PQ3T-AMD772C';
-const FIREBASE_REFRESH_TOKEN = 'AMf-vBw0CyxcfprYVyj3XEbaFnX0zpoGZtEhKFALkKCCJO8jCNx9M9G4C7bdwxm3jtBlmXx7r4yvlL8B133hET8V__PnWvXMK8Ya0e-V5oQfibq3J3sW1oG3BOn_gXWb2kl-q5xAYXTVwTbuwcygFxUGBICsovt9UuIFogheH5wAa2zJe4tCHx6mjCKIC5TjTqX4axEdI5DYuDJ6eCTkO7_dFpb1yweqVg5UNPGDqwcsQPOTspnqlCB_vR1BfgmrixZs4GAyZAU6t5MzyplJScolln_pd4nMOr7HGWPctiECOFGWbao5aGvt5dUe4GAocldCsIdPuflA70tG2pYNEhWtlrCrV9-m2breXo5XZxL7n87zORpGrkxpRl84IXnu4dPbm829tbE9RJFyl-ckpXb5B5kbx7zI9ua2HM-ifqSuzfkwjJUB2zg';
-const FIREBASE_API_KEY = 'AIzaSyBAmK6rMh-nKEZEESVmBZGKxEiLVEctVx8';
+const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
+const NOWPAYMENTS_API_KEY = process.env.NOWPAYMENTS_API_KEY;
+const FIREBASE_REFRESH_TOKEN = process.env.FIREBASE_REFRESH_TOKEN;
+const FIREBASE_API_KEY = process.env.FIREBASE_API_KEY;
 
 // Admin Configuration
 const ADMIN_USER_ID = 48567987;
